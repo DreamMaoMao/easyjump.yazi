@@ -64,7 +64,7 @@ local toggle_ui = ya.sync(function(st)
 		st.status_ej_id = nil
 		Entity._inc = Entity._inc - 1
 		Status._inc = Status._inc - 1
-		ya.render()
+		ui.render()
 		return
 	end
 
@@ -93,7 +93,7 @@ local toggle_ui = ya.sync(function(st)
 	end
 	st.status_ej_id = Status:children_add(status_ej,1001,Status.LEFT)
 
-	ya.render()
+	ui.render()
 end)
 
 local update_double_first_key = ya.sync(function(state, str)
