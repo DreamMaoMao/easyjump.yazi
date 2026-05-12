@@ -1,3 +1,7 @@
+> I no longer maintain a separate plugin repository,refer my config
+https://github.com/DreamMaoMao/yazi-config
+
+
 # easyjump.yazi
 
 A Yazi plugin which like hop.nvim in Neovim, allow use key char to precise selection.
